@@ -23,9 +23,7 @@ hamMenuBtn.addEventListener('click', () => {
 })
 
 for (let i = 0; i < headerSmallMenuLinks.length; i++) {
-  headerSmallMenuLinks[i].addEventListener('click', () => {
-    smallMenu.classList.remove('header__sm-menu--active')
-    headerHamMenuBtn.classList.remove('d-none')
+  headerSmallMenuLinks[i].addEventListener('click', () => {  
     headerHamMenuCloseBtn.classList.add('d-none')
   })
 }
@@ -39,14 +37,14 @@ headerLogoConatiner.addEventListener('click', () => {
 
 document.getElementById('myForm').addEventListener('submit', function (e) {
   e.preventDefault()
-  if(validateForm){
+  if (validateForm) {
     console.log('Submitted')
     //this.submit()
   }
-  
+
 })
 
-function validateForm(){
+function validateForm() {
   //fetch input
   var nameInput = document.getElementById("name");
   var messageInput = document.getElementById("message");
@@ -54,10 +52,10 @@ function validateForm(){
 
   // Regular expressions for email validation
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    
+
   // Flag to track validation status
   var isValid = true;
-  
+
   // Reset previous error messages
   nameInput.setCustomValidity("");
   emailInput.setCustomValidity("");
@@ -67,18 +65,18 @@ function validateForm(){
   if (nameInput.value.trim() === "") {
     nameInput.setCustomValidity("Please enter your name.");
     isValid = false;
-};
-// Validate email
-if (!emailRegex.test(emailInput.value.trim())) {
-  emailInput.setCustomValidity("Please enter a valid email address.");
-  isValid = false;
-}
-// Validate message
-if (messageInput.value.trim() === "") {
-  messageInput.setCustomValidity("Please enter your message.");
-  isValid = false;
-}
+  };
+  // Validate email
+  if (!emailRegex.test(emailInput.value.trim())) {
+    emailInput.setCustomValidity("Please enter a valid email address.");
+    isValid = false;
+  }
+  // Validate message
+  if (messageInput.value.trim() === "") {
+    messageInput.setCustomValidity("Please enter your message.");
+    isValid = false;
+  }
 
-// Return validation status
-return isValid;
-}
+  // Return validation status
+  return isValid;
+} 

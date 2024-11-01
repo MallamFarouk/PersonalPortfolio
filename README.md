@@ -1,6 +1,4 @@
-# Dopefolio 🔥
-
-## A Blazing Fast Multipage Portfolio Template for Developers 🚀
+# Issa FArouk Porfolio Websit
 
 ## [Demo Link](https://dopefolio.netlify.app) 🔗
 
@@ -16,9 +14,7 @@
 
 <br/>
 
-## ( Update ): Project Achievement 🏆 
 
-**Dopefolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌
 
 **[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**   
 
@@ -30,9 +26,9 @@
 
 ## Support
 
-I do need **support** from amazing people like you as I started posting on **[My Linkedin](https://linkedin.com/in/rammcodes)** and want each one of you to checkout **[My Linkedin](https://linkedin.com/in/rammcodes)** Profile where I post amazing content related to Programming & Web Development 🚀
+I do need **support** from amazing people like you as I started posting on **[My Linkedin](https://linkedin.com/in/issafarouk)** and want each one of you to checkout **[My Linkedin](https://linkedin.com/in/rammcodes)** Profile where I post amazing content related to Programming & Web Development 🚀
 
-<a href="https://linkedin.com/in/rammcodes">
+<a href="https://linkedin.com/in/issafarouk">
 <div align="center">
   <img src="https://i.postimg.cc/3RhcKdTD/www-linkedin-com-in-rammcodes-4.png" alt="Ram Maheshwari Linkedin Profile" width="100%" />
   <br>
